@@ -1,0 +1,6 @@
+.co.ke
+    DocumentRoot /var/www/html/
+#RewriteEngine on
+#RewriteCond %{SERVER_NAME} =api.paysol.co.ke
+#RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
+</VirtualHost>
